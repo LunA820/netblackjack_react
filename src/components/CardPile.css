@@ -1,0 +1,13 @@
+.cardPile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card{
+  width: auto;
+  height: 160px;
+  margin-left: -40px;
+}

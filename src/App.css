@@ -1,38 +1,57 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-image: url("./assets/fsm_bg2.jpg");
+  background-size: cover;
   min-height: 100vh;
+  min-width: 100vw;
+}
+
+.topBar{
+  height: 9.5vh;
+  padding-left: 40px !important;
+  margin-bottom: 50px;
+}
+
+.gameZone{
+  width: 100%;
+  min-height: 73vh;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.controlZone{
+  width: 200px;
+  min-height: 400px;
+  display: grid;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  border: solid;
+  border-color: grey;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+
+.btn{
+  width: 100px
+}
+
+.btmBar{
+  height: 7.5vh;
   color: white;
+  justify-content: center !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fsm{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

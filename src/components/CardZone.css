@@ -1,0 +1,16 @@
+.cardZone{
+  width: 700px;
+  border: solid;
+  border-color: grey;
+  border-radius: 10%;
+  min-height: 70vh;
+  padding: 40px 5vw 40px 5vw;
+  margin: 0 5vw 5vh 5vw;
+  color: white;
+  background-color: rgba(40, 40, 40, 0.8);
+
+}
+
+.ood_box{
+  text-align: left;
+}
