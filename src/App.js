@@ -11,7 +11,7 @@ import Axios from 'axios';
 
 
 function App() {
-  const apiUrl = "https://lunaapi.azurewebsites.net/api/blackjack/"
+  const apiUrl = "https://blackjack820.azurewebsites.net/api/blackjack/"
 
   const [state, setState] = useState(0)
   const [dCards, setDCards]  = useState([])
